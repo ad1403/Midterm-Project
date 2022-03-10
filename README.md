@@ -1,4 +1,3 @@
-[Chapter 8 Learning Activity.docx](https://github.com/ad1403/Midterm-Project/files/8219175/Chapter.8.Learning.Activity.docx)
 # Midterm-Project
 Package Summary. Introduce the package and what it does at a high level.
 The packages used within the 
