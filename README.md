@@ -1,32 +1,41 @@
 # Midterm-Project
-# Package Summary
-The packages used within the presented code sequence is NumPy and Matplotlib. 
-NumPy, which stands for Numerical Python is used for working with arrays to perform mathematical and logical operations. 
-Matplotlib is a package that creates visualizations like graphs in Python. 
-Install and Run Instructions. How to install the packages necessary to run your code
-Code. Brief explanation of how your code works and highlights of important areas with line numbers included.
+## Package Summary
+For my project, the packages I used were NumPy and Matplotlib. 
+NumPy, which stands for Numerical Python is used for working with arrays to perform mathematical and logical operations. Arrays are considered a grid of values, all of the same type. This package can also act as a random number generator. 
+Matplotlib is a package that creates visualizations and allows you to plot graphs in Python. Matplotlib has the capability to create various types of graphs such as bar graphs, histograms, line graphs, scatter plots, and stem plots. 
+## Install and Run Instructions
+To install both of the packages, the steps are very similar. The first thing to do is to make sure that your system is updated with the most recent version of Python and that pip is downloaded and upgraded if it needs to be. From here you can install the different packages. 
 
+To install NumPy:
+```python
+pip3 install numpy
+```
+
+To install Matplotlib:
+```python
+pip3 install matplotlib
+```
+
+## Code
+My code is used to randomly generate plots and plot them afterwards. Lines 4 through 7 is the function used to generate random plots and puts it into a list. Lines 19 through 12 are responisble for getting the lists generated from the previous function in order to plot the points. Lines 14 through 16 runs the function to plot the points on a graph. 
 ```python
 import numpy as np
 import matplotlib.pyplot as plt
 
-#funciton generates random points and puts it into a list
 def get_coordinates(lst):
     for i in range(0,11):
         lst.append(np.random.randint(11))
     return lst
 
-#Getting lists in order to plot the points
 x = []
 x_lst = get_coordinates(x)
 y = []
 y_lst = get_coordinates(y)
 
-#plotting the points
 plt.plot(x_lst,y_lst,'o',color='blue',zorder=2)
 plt.grid()
 plt.show()
 ```
 
-
-Future idea. What if I asked you to use this package in your final class project? Describing one idea, including explaining what this package would do in that project.
+## Future idea
+Although my current code might not tranistion over to real-world data, the current packages used have the ability to be useful when working with analytics and data visualization. One example, where these packages prove to be useful is when working with data like women shoe sales as NumPy can find the average amount of sales per shoe brand and from there, Matplotlib is able to plot the data on a graph to provide visuals. 
