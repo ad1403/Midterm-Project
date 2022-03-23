@@ -1,7 +1,7 @@
 # Midterm-Project
 ## Package Summary
 For my project, the packages I used were NumPy and Matplotlib. 
-NumPy, which stands for Numerical Python is used for working with arrays to perform mathematical and logical operations. Arrays are considered a grid of values, all of the same type. This package can also act as a random number generator. 
+NumPy, which stands for Numerical Python, is used for working with arrays to perform mathematical and logical operations. Arrays are considered a grid of values, all of the same type. This package can also act as a random number generator. 
 Matplotlib is a package that creates visualizations and allows you to plot graphs in Python. Matplotlib has the capability to create various types of graphs such as bar graphs, histograms, line graphs, scatter plots, and stem plots. 
 ## Install and Run Instructions
 To install both of the packages, the steps are very similar. The first thing to do is to make sure that your system is updated with the most recent version of Python and that pip is downloaded and upgraded if it needs to be. From here you can install the different packages. 
@@ -38,4 +38,4 @@ plt.show()
 ```
 
 ## Future idea
-Although my current code might not tranistion over to real-world data, the current packages used have the ability to be useful when working with analytics and data visualization. One example, where these packages prove to be useful is when working with data like women shoe sales as NumPy can find the average amount of sales per shoe brand and from there, Matplotlib is able to plot the data on a graph to provide visuals. 
+Although my current code might not transition over to real-world data, the current packages used have the ability to be useful when working with analytics and data visualization. One example, where these packages prove to be useful is when working with data like women shoe sales as NumPy can find the average amount of sales per shoe brand and from there, Matplotlib is able to plot the data on a graph to provide visuals. 
